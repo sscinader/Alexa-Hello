@@ -1,0 +1,23 @@
+{
+  "name": "alexa-hello",
+  "version": "1.0.0",
+  "description": "Teach Alexa to say hello to me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "zip -r /tmp/alexa-hello.zip . && aws lambda update-function-code --function-name alexa-hello --zip-file fileb:///tmp/alexa-hello.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscinader/Alexa-Hello.git"
+  },
+  "author": "Sadie Cinader sscinader@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sscinader/Alexa-Hello/issues"
+  },
+  "homepage": "https://github.com/sscinader/Alexa-Hello#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.5"
+  }
+}
