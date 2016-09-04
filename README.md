@@ -1,2 +1,2 @@
 # Alexa-Hello
-teach alexa to say hello to me
+Teach alexa to say hello to me
