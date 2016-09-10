@@ -1,4 +1,5 @@
 var Alexa = require('alexa-sdk');
+var appId = 'amzn1.ask.skill.11f10bc1-334a-44a9-ba47-2b15fe106258';
 
 var handlers = {
     'LaunchRequest': function () {
@@ -18,6 +19,7 @@ var handlers = {
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
+    alexa.appId = appId;
     alexa.registerHandlers(handlers);
     alexa.execute();
 };

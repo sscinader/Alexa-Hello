@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent"
+    },
+    {
+      "intent": "DadsSmellyIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "FavoriteFoodIntent"
+    }
+  ]
+}
